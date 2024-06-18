@@ -1,6 +1,6 @@
 # Calculator
  Calculator Using HTML , CSS , JS <br/>
- By KARTIKAY SHARMA
+ **KARTIKAY SHARMA**
  <br/>
  <br/>
 
