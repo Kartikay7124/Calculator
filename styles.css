@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(66, 60, 91, 1) 53%, rgba(47, 39, 75, 1) 62%, rgba(0, 0, 0, 1) 98%, rgba(0, 0, 0, 1) 99%, rgba(0, 0, 0, 1) 99%);
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.calculator {
+    width: 320px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.display {
+    background-color: #222;
+    color: #fff;
+    font-size: 2em;
+    padding: 20px;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+    background-color: #ddd;
+}
+
+.btn {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    background-color: #fff;
+    border: none;
+    padding: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: gold;
+}
+
+.btn.zero {
+    grid-column: span 2;
+}
+
+.btn:active {
+    background-color: #ccc;
+}
